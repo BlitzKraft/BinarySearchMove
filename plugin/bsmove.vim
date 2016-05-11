@@ -12,8 +12,8 @@ let g:bsmovethre = 2
 "map L :call BSMoveLineGoRight()<CR>
 "map <Leader>u :call BSMoveBufGoUp()<CR>
 "map <Leader>d :call BSMoveBufGoDown()<CR>
-map H :call BSMoveLineGoLeft()<CR>
-map L :call BSMoveLineGoRight()<CR>
+map Q :call BSMoveLineGoLeft()<CR>
+map T :call BSMoveLineGoRight()<CR>
 map K :call BSMoveBufGoUp()<CR>
 map J :call BSMoveBufGoDown()<CR>
 

@@ -1,4 +1,4 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=1756
+### Custom keybindings 
 
 Move a cursor with binary search principle - each step is twice shorter than previous.
 This requires log2(N) steps in a worth case to position in a line with a length N (7 keypresses for a 120 chars line).
