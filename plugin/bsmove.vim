@@ -7,13 +7,15 @@
 " minimal length of binary search step, if step is less that the threshold, we move only at one char or line
 let g:bsmovethre = 2 
 
-" mapping
+" mapping, default from the plugin
+"map H :call BSMoveLineGoLeft()<CR>
+"map L :call BSMoveLineGoRight()<CR>
+"map <Leader>u :call BSMoveBufGoUp()<CR>
+"map <Leader>d :call BSMoveBufGoDown()<CR>
 map H :call BSMoveLineGoLeft()<CR>
 map L :call BSMoveLineGoRight()<CR>
-map <Leader>u :call BSMoveBufGoUp()<CR>
-map <Leader>d :call BSMoveBufGoDown()<CR>
-
-
+map J :call BSMoveBufGoUp()<CR>
+map K :call BSMoveBufGoDown()<CR>
 
 function! BSMoveLineCenter()
 	call cursor(0, b:bscolmin + (b:bscolmax - b:bscolmin) / 2)
