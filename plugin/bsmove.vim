@@ -14,8 +14,8 @@ let g:bsmovethre = 2
 "map <Leader>d :call BSMoveBufGoDown()<CR>
 map Q :call BSMoveLineGoLeft()<CR>
 map T :call BSMoveLineGoRight()<CR>
-map K :call BSMoveBufGoUp()<CR>
-map J :call BSMoveBufGoDown()<CR>
+map Z :call BSMoveBufGoUp()<CR>
+map M :call BSMoveBufGoDown()<CR>
 
 function! BSMoveLineCenter()
 	call cursor(0, b:bscolmin + (b:bscolmax - b:bscolmin) / 2)
